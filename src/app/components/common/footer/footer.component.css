@@ -1,0 +1,14 @@
+footer {
+  padding: 1rem 3rem;
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items:baseline;
+  clear: both;
+}
+
+footer p {
+  line-height: 100%;
+  vertical-align: middle;
+  font-size: 0.9em;
+}

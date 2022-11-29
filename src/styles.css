@@ -1,0 +1,75 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+@import "assets/css/all.min.css";
+@import "assets/css/adminlte.min.css";
+.color-primary-red {
+    color: #EC1940;
+}
+.color-primary-pink {
+    color: #E51A4C;
+}
+.color-primary-green {
+    color: #00AC4D;
+}
+.color-primary-blue {
+    color: #2E3D70;
+}
+.color-primary-light {
+    color: #EEF2FF;
+}
+.content-wrapper {
+    background: #EEF2FF;
+}
+body:not(.layout-fixed) .main-sidebar {
+    height: inherit;
+    min-height: 100vh;
+    width: 17%;
+    position: absolute;
+    top: 0;
+}
+.sidebar-light-danger .nav-sidebar>.nav-item>.nav-link.active {
+    background-color: #1b097e;
+    color: #fff;
+}
+
+
+html, 
+body {
+    height: 100%;
+    width: 100%;
+}
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+.active>.page-link{
+    background-color: #000;
+    border-color: #000;
+}
+
+.pagination{
+    --bs-pagination-color: #000;
+    --bs-pagination-hover-color: #fff;
+    --bs-pagination-focus-color: #fff;
+    --bs-pagination-hover-border-color: #fff;
+    --bs-pagination-focus-box-shadow: #fff;
+}
+
+.cstm-textbox{
+    border: 1px solid #1c1d1f;
+    border-radius: 0%;
+    background: #fff;
+  }
+  
+
+.cstm-main-content{
+    min-height: 90vh;
+}
